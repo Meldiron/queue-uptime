@@ -1,0 +1,24 @@
+{
+    "projectId": "betteruptime",
+    "projectName": "Better Uptime",
+    "functions": [
+        {
+            "$id": "650d3cefc57ec181eff9",
+            "name": "Queue Uptime",
+            "runtime": "node-18.0",
+            "execute": [],
+            "events": [],
+            "schedule": "* * * * *",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "./"
+        }
+    ]
+}
