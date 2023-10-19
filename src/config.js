@@ -27,7 +27,7 @@ export const config = {
     },
     {
       name: 'deletes',
-      maxSize: 100,
+      maxSize: 1500,
       heartbeatUrl: process.env.HEARTBEAT_URL_DELETES,
     },
     {
